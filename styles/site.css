@@ -1,0 +1,473 @@
+/*default: narrow screens */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 231, 186);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/*interaction*/
+.hidden{
+    display:none;
+}
+
+.hidden2{
+    display:none !important;
+}
+
+#buttonH{
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(247, 234, 132);
+    cursor: pointer;
+
+}
+
+#buttonH:hover {
+    background-color: rgb(254, 221, 37);
+
+}
+
+#nav3{
+    display:flex;
+    flex-direction:column;
+    background-color: rgba(255, 191, 0, 0.846);
+    border-radius: 20px;
+    list-style-type: none;
+    margin:auto auto;
+    padding-left:0;
+
+
+}
+
+#nav3 li{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex-grow: 1;
+    margin:auto auto;
+    padding:8px;
+    width:85%;
+    text-align: center;
+}
+
+#nav3 li a{
+    display:block;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 10pt;;
+    color:white;
+    text-decoration: none;
+}
+
+#nav3 li a:hover{
+    color:  rgba(255, 191, 0, 0.846);
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+h1{
+    color:rgb(154, 38, 0);
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    margin:25pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+strong{
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    margin:10px;
+}
+
+p{
+    font-size: 17pt;
+}
+
+dt{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    margin: 10pt;
+}
+dd{
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+/* About page */
+
+nav ul{
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+    display:flex;
+    flex-direction:column;
+    background-color: rgba(255, 119, 0, 0.846);
+    border-radius: 20px;
+}
+
+nav ul li {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex-grow: 1;
+    margin:auto auto;
+    padding:10px;
+    width:90%;
+    text-align: center;
+}
+
+nav ul li a{
+    display:block;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 10pt;;
+    color:white;
+    text-decoration: none;
+}
+
+/*dropdown*/
+
+#nav2{
+    display:block;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(255, 119, 0);
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 10pt;;
+    text-decoration: none;
+    margin:auto auto;
+    cursor: pointer;
+
+    width:100%;
+
+}
+
+#nav2:hover{
+    color:brown;
+    background-color: rgba(255, 255, 255, 0.846);
+}
+
+
+nav ul li a:hover{
+    color:brown;
+    background-color: white;
+}
+
+.intro{
+    display:flex;
+    flex-direction: column;
+}
+
+.apple{
+    width:90%;
+    margin:auto auto;
+    margin-bottom: 20pt;
+    max-width: 500px;
+    border-radius: 15pt;
+}
+
+.int{
+    padding:20px;
+}
+
+.time{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(252, 252, 233);
+    border-radius: 15pt;
+}
+
+.time strong{
+    font-size: 20pt;
+    margin-bottom: 10pt;
+}
+
+.time ul li{
+    list-style-type: none;
+    font-size: 25px;
+    margin:auto auto;
+    padding-bottom: 10pt;
+    padding-right: 10pt;
+    padding-left:0;
+}
+
+/* horizontal display */
+
+.hor{
+    display:flex;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 10px;
+    padding-bottom: 10pt;
+}
+.hor picture{
+    width:60%;
+    margin:auto auto;
+    padding:20px;
+    padding-bottom: 10px;
+}
+.hor picture img{
+    width:90%;
+    margin-left: 10pt;
+    margin-right: 0pt;
+    border-radius: 10px;
+}
+
+.vir{
+    flex-direction: column;
+    padding-left:5px;
+    padding:20px;
+}
+
+.hor p{
+    margin-left: 15px;
+}
+
+/* Food page */
+
+.map{
+    display: flex;
+    margin:0;
+    padding: 0;
+    padding-top: 15px;
+}
+
+/* .map:hover{
+    box-shadow: 10px 15px 10px 5px lightblue, 10px 10px rgb(177, 177, 177);
+} */
+
+.map img{
+    width:80%;
+}
+
+
+
+.hor2{
+    display:flex;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 10px;
+    padding-bottom: 10pt;
+}
+.hor2 picture{
+    width:65%;
+    margin:auto auto;
+    padding:20px;
+    padding-bottom: 10px;
+}
+.food{
+    width:95%;
+    margin-left: 10pt;
+    margin-right: 0pt;
+    border-radius: 10px;
+}
+
+.hor2 p{
+    margin: 20px;
+}
+
+.hor2 ul{
+    padding-left:0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.date{
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+
+/* FAQ page */
+
+.hor-faq{
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 30pt;
+}
+
+.hor-faq main{
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.hor-faq section{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(254, 230, 199);
+
+}
+
+.hor-faq section ul li{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+
+
+@media(min-width:700px){
+    body{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /*interaction*/
+
+    nav ul .hover{
+        margin:auto;
+    }
+
+    #buttonH{
+        display:none;
+    }
+
+    /* #modal {
+        width: 100%;
+        height:100%;
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(192, 162, 127);
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    #modal figure img{
+        width:80%;
+        margin: 10px;
+
+    } */
+
+    #close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+    #close:hover{
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+
+
+    .hidden{
+        display:contents;
+    }
+
+    .hidden2{
+        display:none;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+    nav ul li{
+        flex:none;
+        font-size:20px;
+        width: 25%;
+    }
+    nav ul{
+        justify-content: center;
+        flex-direction:row;
+    }
+
+    #nav2{
+        font-size:20px;
+
+    }
+
+    .int{
+        margin-left: 30pt;
+        margin-right: 30pt;
+        width:50%;
+    }
+
+    .intro picture{
+        width:50%;
+        margin:auto auto;
+        padding:20px;
+    }
+
+
+    .intro{
+        flex-direction: row;
+    }
+
+    .hor{
+        flex-direction: row;
+    }
+
+    .hor p{
+        margin-left: 5px;
+    }
+
+    .hor2{
+        flex-direction: row;
+        margin-bottom: 30pt;
+    }
+
+    .food{
+        max-width: 500px;
+    }
+
+    .hor2 p{
+        margin: auto auto;
+        margin-right: 30px;
+        padding:10px;
+
+        width:80%;
+    }
+
+    .hor2 ul{
+        padding-right: 15px;
+        margin: auto auto;
+        width:60%;
+    }
+
+
+    /* FAQ page */
+
+    .hor-faq{
+        flex-direction: row;
+
+    }
+
+    .hor-faq main{
+        width:65%;
+        margin-right: 20px;
+    }
+
+    .hor-faq section{
+        width:35%;
+    }
+
+    .vir{
+        width:40%;
+    }
+
+    p{
+        font-size: 15pt;
+    }
+
+}

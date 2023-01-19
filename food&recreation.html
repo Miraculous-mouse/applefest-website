@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>applefest-food</title>
+    <link rel="stylesheet" type="text/css" href="styles/site.css" media="all" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+</head>
+
+ <!-- Source: all the imaged, text contents, and the map are instructor provided -->
+<body>
+    <h1>🍎 Apple Fest - Food & Recreation 🥧 </h1>
+    <button id="buttonH" aria-label="show nevigation">MENU</button>
+
+    <nav id="nav1" class="hidden">
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><button id="nav2">Food & Recreation</button>
+                <ul id="nav3" class="hover hidden2" >
+                    <li><a href="food&recreation.html#part1">Apple Products</a></li>
+                    <li><a href="food&recreation.html#part2">Food</a></li>
+                    <li><a href="food&recreation.html#part3">Crafts</a></li>
+                </ul></li>
+            <li><a href="faq.html">FAQs</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!-- Source: instructor provided -->
+    <h2>Map</h2>
+    <strong>With over 100 vendors present at the festival, there are many opportunities to be introduced to the rich artisan and culinary community in Ithaca. Feel free to explore on the map before attending the fest!</strong>
+
+    <!-- Source: instructor provided -->
+
+
+        <figure class="map">
+            <img src="images/apple-harvest-map.svg" alt="map of Apple Fest">
+        </figure>
+
+            <!-- right now, it has a class of hidden -->
+        <!-- but when you click the small image above, this hidden class should be removed -->
+
+        <!-- this div needs to expand entire page with dark background -->
+
+        <!-- <div id="modal" class="hidden2">
+            <button id="close">X</button>
+            <figure>
+                <img src="images/apple-harvest-map.svg" alt="map of Apple Fest large">
+            </figure>
+
+        </div> -->
+
+
+    <!-- Source: instructor provided -->
+    <h2 id="part1">Apple-related Products</h2>
+    <div class="hor2">
+        <!-- Source: instructor provided -->
+        <picture>
+            <img class="food" src="images/applepies.jpg" alt="applepies">
+        </picture>
+
+        <!-- Source: instructor provided -->
+        <picture>
+            <img class="food" src="images/cider-donuts-horizontal.jpg" alt="appledonuts">
+        </picture>
+
+        <p>Our food vendors feature apple-centric and other fall classics for you to taste! You should not miss our most popular cider donuts and apple pie! There are also different kinds of fresh apples, apple ciders, and honey-creamed apple chips! </p>
+    </div>
+
+    <!-- Source: instructor provided -->
+    <section>
+        <h2 id="part2">Food</h2>
+        <div class="hor2">
+            <!-- Source: instructor provided -->
+            <picture>
+                <img class="food" src="images/popcorn-stall.jpg" alt="other foods at the fest">
+            </picture>
+            <p>Other than apple products, you can also enjoy many other delicious local food at the fest! To list some food vendors, there are Mr. Squeeze Lemonade, On The Street Pitas, Thai Palace, and Adam Grill! You can find popcorns, maple cotton candy, tacos, ice creams, grills, and more! </p>
+        </div>
+    </section>
+
+
+    <!-- Source: instructor provided -->
+    <section>
+        <h2 id="part3">Crafts</h2>
+        <div class="hor2">
+            <!-- Source: instructor provided -->
+            <picture>
+                <img class="food" src="images/craft-jewelry.jpg" alt="crafts on sale at the fest">
+            </picture>
+            <p>Many artists are here at the fest with their fabulous hand-made crafts! You can find necklaces, self-made soaps, paintings, earrings, and so much more! There are more than 70 different crafters including Blue Toucan Studios - Fairy Doors, Queen City Basement Designs, Wildflower Beads, Morning Mist Farms Soaps & Sundries. </p>
+        </div>
+    </section>
+
+    <!-- Source: instructor provided -->
+    <section>
+        <h2>Performances Schedule</h2>
+        <p>There are many choices of games & entertainment at the fest, including an on-going live performances located at the Bernie Milton Pavilion. Check out the schedule and don't miss any cool artists you like!</p>
+        <div class="hor2">
+            <!-- Source: instructor provided -->
+            <picture>
+                <img class="food" src="images/fire.jpg" alt="performance photo">
+            </picture>
+            <ul>
+                <li class="date">Saturday, October 1, 2022</li>
+                <li>12:00pm - Rachel Beverly</li>
+                <li>1:00pm - Sunny Weather</li>
+                <li>2:00pm - Firefly Jazz Quartet</li>
+                <li>3:00pm - Janet Batch</li>
+                <li>4:00pm - Leo + The Maydays</li>
+                <li>5:00pm - Neo Project</li>
+            </ul>
+
+            <ul>
+                <li class="date">Sunday, October 2, 2022</li>
+                <li>12:00pm - Ageless Jazz Band</li>
+                <li>1:00pm - Yamatai</li>
+                <li>1:30pm - Fall Creek Brass Band</li>
+                <li>3:00pm - Viva Mayhem</li>
+                <li>4:00pm - Noon Fifteen</li>
+                <li>5:00pm - Ariel Arbisser</li>
+
+            </ul>
+        </div>
+    </section>
+
+
+    <script src="scripts/jquery-3.6.1.js">
+    </script>
+
+    <script src="scripts/dropdown.js">
+    </script>
+    <script src="scripts/hamburger.js">
+    </script>
+
+
+
+</body>
