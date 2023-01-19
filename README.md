@@ -1,3 +1,4 @@
-# Project 3
+# Apple fest Website
 
-**Submission Instructions:** Stage, commit, and push your changed files. Then complete the submission form.
+A class project building website for Ithaca local apple harvest fest. 
+HTML for structure, and CSS & Java Script for styling. 
